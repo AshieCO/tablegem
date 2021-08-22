@@ -7,8 +7,8 @@
 - Roll on tables
 - Dice notation
 - GUI with multiple tabs, grid/flex layout
-- Import tables
-- Export tables as .json, .csv
+- Import tables (.json, .csv)
+- Export tables as (.json, .csv)
 ---
 #### Stretch goals:
 - Sub-table rolling (Point a table result to another table)
