@@ -2,9 +2,6 @@
 using Microsoft.Extensions.Configuration;
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Tablegem.Library.Dice.Interfaces;
 using Tablegem.Library.Services.Interfaces;
 
@@ -39,6 +36,11 @@ namespace Tablegem.Library.Dice
 
         private bool InputIsValid(int numberOfFaces)
         {
+            if (numberOfFaces < 1)
+            {
+                return false;
+            }
+
             if (!_useValidPolyhedralDice)
             {
                 return true;
