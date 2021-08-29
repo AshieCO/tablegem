@@ -13,6 +13,12 @@ namespace Tablegem.Library.Tables
     {
         public string Name { get; set; }
 
+        public string Description { get; set; }
+
+        public Guid Id { get; set; }
+
+        public string CreatedBy { get; set; }
+
         /// <summary>
         /// A Header for a Table.  Includes the dice to define the roll (first column) on a table, and column names for the results.
         /// </summary>
